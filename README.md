@@ -192,7 +192,7 @@ model = LogisticRegression()
 ### Support Vector Machine (SVM)
 
 ```python
-model = LinearSVC()
+model = SVC(kernel="linear", probability=True)
 ```
 
 The preferred model can be selected in `train.py` by commenting or uncommenting the corresponding code.
