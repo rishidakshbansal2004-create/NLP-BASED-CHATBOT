@@ -14,14 +14,14 @@ stop_words = set(stopwords.words('english'))
 def preprocess (text):
     text=text.lower()
     tokens=word_tokenize(text)
-    tokens=[t for t in tokens if t.isalpha() and t not in stop_words]
+    
     tokens=[stemmer.stem(t) for t in tokens]
 
     return tokens
 
 if __name__ == "__main__":
     tests = [
-        "Hey there how are you!",
+        "i need  some assistance",
         "Tell me a funny joke please",
         "I need some motivation",
         "What can you do?"

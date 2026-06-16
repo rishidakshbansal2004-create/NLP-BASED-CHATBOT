@@ -1,0 +1,242 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+            "Hey there",
+            "Good morning",
+            "Good evening",
+            "Good afternoon",
+            "Hey",
+            "HAPPY to see you",
+            "Greetings",
+            "What's up",
+            "How's it going",
+            "Long time no see",
+            "Kya haal hai",
+            "Kaise ho",
+            "Namaste",
+            "Howdy",
+            "Hey buddy"
+            ],
+            "responses": [
+                "Hello! What can I help you accomplish today?",
+                "Hi there! Tell me how I can assist you right now.",
+                "Welcome! I am ready to help. What is on your mind?",
+                "Greetings! Let me know what you need and we can get started.",
+                "Hi! Need a hand with something? Ask me anything.",
+                "Hello! Thank you for reaching out. How can I make your day easier?",
+                "Hello! Do you need a quick dose of jokes or motivation?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye", "Goodbye", "See you later", "Take care", "I'm leaving",
+                "Catch you later", "See ya", "Good night", "I'll talk to you later",
+                "I'm out","chalo bye","mile hai baad mein","meet later","Meet next time",
+                "Chalte hai", "Alvida", "Baad mein baat karte hai","chalta hun",
+                "Chalo bye", "Nikalta hoon","Have a great day","Time to go"
+            ],
+            "responses": [
+                "Pleasure to serve you Goodbye! Have a great day!",
+                "Thanks for coming",
+                "See you later! Take care!",
+                "Bye! Come back anytime!",
+                "Alvida! It was nice talking to you!",
+                "Take care! Catch you later!",
+                "Good night! Sweet dreams!"
+            ]
+        },
+        
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell  a joke",
+                "Crack me a joke",
+                "make me laugh",
+                "Any joke",
+                "Funny joke",
+                "say something funny",
+                "humor me",
+                "chuckle me",
+                "one-liner",
+                "gag me",
+                "I want to laugh",
+                "make a pun",
+                "Give a one-liner",
+                "Tell me something hilarious",
+                "Cheer me up with a joke",
+                "Hasna hai mujhe",
+                "Kuch funny bolo",
+                "Yaar hasao mujhe",
+                "Ek joke maro bhai"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+                "Why did the bicycle fall over? Because it was two-tired!",
+                "How do you keep an idiot in suspense? I'll tell you later!",
+                "Is your refrigerator running? You better go catch it!",
+                "Code mein Warning ko ignore karna bilkul driving karte waqt Seatbelt na lagane jaisa hai—jab tak crash nahi hota, lagta hai sab badhiya chal raha hai! 🚗⚠️😂"
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "tell me a motivating qoute",
+                "I need motivation",
+                "Some motivation",
+                "I am feeling low",
+                "motivation",
+                "I am feeling sad",
+                "I am struggling",
+                "tips to focus",
+                "help me get focused",
+                "push me ",
+                "inspire me",
+                "anything inspiring",
+                "need some inspiration",
+                "give me motivation",
+                "Motivate me",
+                "boost my energy",
+                "Quote of the day",
+                "encourage me",
+                "give me a pep talk",
+                "success quotes",
+                "i am feeling lazy"
+
+            ],
+            "responses": [
+                "Here's your daily motivation: Your only limit is your mind. Push harder today because no one else is going to do it for you!",
+                "Dont Worry just Keep going! Remember Great things take time.",
+                "Fuel for your hustle: The secret of getting ahead is simply getting started right now.",
+                "Here is your daily reality check: If it was easy, everyone would do it. Stay disciplined.",
+                "Time for your daily dose of motivation: Don't stop when you are tired. Stop when you are done. Your future self is counting on you.",
+                "Get ready for your daily spark: Great things never come from comfort zones. Step out and go chase your goals today.",
+                "Rishi's bot bringing you today's inspiration: Small steps every day add up to big results. Focus on progress, not perfection.",
+                "Here is your push to keep grinding: Dream big, work hard, and stay focused. Success doesn't find you; you have to go get it."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you",
+                "What are you",
+                "Tell me about yourself",
+                "Introduce yourself",
+                "Are you a bot",
+                "TELL your ABILITIES",
+                "Define yourself",
+                "What does this bot do",
+                "Tell me your story",
+                "what should i call you",
+                "What is your purpose",
+                "Who is behind this",
+                "What kind of bot are you",
+                "Whats your Name"
+            ],
+            "responses": [
+                "I am a basic NLP-based chatbot made by Rishi, trained to deliver funny jokes and share motivational quotes.",
+                "I am a simple NLP conversational assistant made by Rishi to respond with humor or inspiration.",
+                "I am a basic NLP chat bot made by Rishi to process text intents and boost your mood.",
+                "I am a text-based NLP assistant made by Rishi, designed to reply with witty jokes or powerful quotes.",
+                "I am a basic NLP system made by Rishi, programmed to give you a fun joke or a helpful pep talk.",
+                "I am a simple natural language processing bot made by Rishi to deliver high-energy jokes or motivation."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help me",
+                "some help please",
+                "heLP HELP HELP",
+                "What can you do",
+                "How can you help me",
+                "what functions do you have",
+                "explain what you do",
+                "what are my options",
+                "some help please",
+                "I need help",
+                "explain",
+                "Assist me please",
+                "i need  some assistance",
+                "Guide me",
+                "How to use"
+            ],
+            "responses": [
+                "I can tell jokes, motivate you, answer questions and more!",
+                "Try asking me for a joke or some motivation!",
+                "I am here to entertain and inspire! I can drop witty one-liners or give you deep motivation.",
+                "I've got jokes to brighten your day and motivation to help you crush your goals. What do you need?",
+                "Ask me for a quick joke to smile or some strong motivation to keep going. Ready when you are!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Grateful","Thank you", "Thanks a lot", "That was really impressive", "I appreciate it",
+                "Thanks so much", "Cheers", "Many thanks", "You're so good","I appreciate your effort", "Thanks for help","appreciate your help",
+                "Great ", "Thanks buddy", "I am very grateful","appreciate you a lot","Good work",
+                "Shukriya", "Dhanyawad", "Bahut bahut shukriya",
+                "Bhai thanks yaar", "Teri madad ke liye thanks"
+            ],
+            
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!",
+                "Glad I made you satisfied !",
+                "Happy to serve",
+                "AREE AREE ABB ITNA BHI KUCH KHAS NAHI",
+                "Hamesha aapki sewa me!"
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "Sorry, I didn't understand that.Try asking help",
+                "Can you rephrase that?,Meanwhile do you want to hear a joke",
+                "I'm not sure I understand. Can you try again?",
+                "I am not able to understand your concern",
+                "Itna nahi aata bhai,jokes ya motivation chaiye toh batao"
+            ]
+        },
+        {
+    "tag": "smalltalk",
+    "patterns": [
+        "How are you",
+        "How is your day going",
+        "What are you doing",
+        "Can we chat",
+        "Let us talk",
+        "Are you busy",
+        "Do you have hobbies",
+        "Are you doing well",
+        "How have you been",
+        "Do you get bored",
+        "What keeps you busy",
+        "Are you having a good day",
+        "Do you enjoy chatting",
+        "Can we have a conversation",
+        "Would you like to talk",
+        "What are you up to",
+        "Are you free to talk",
+        "Baat karte hai",
+        "Kuch baat karo",
+        "Bore ho raha hoon baat karo"
+    ],
+    "responses": [
+    "I am doing great and always ready to chat! I do not have feelings or a personal life, but I love conversations. Whether you want jokes, motivation, or just want to talk, I am here for you anytime!",
+    "Everything is running smoothly on my end! I do not get tired, bored, or distracted. I am always available whenever you need someone to talk to. So what is on your mind today?",
+    "Thanks for asking! As a chatbot I do not experience emotions, but I genuinely enjoy helping people and having interesting conversations. Feel free to talk about anything, ask questions, or just pass the time with me!",
+    "I am always active and ready to assist! I do not have hobbies or preferences like humans, but I love chatting, sharing jokes, giving motivation, and making conversations fun and useful. What would you like to talk about?",
+    "Glad you asked! I spend my time chatting with amazing people like you, answering questions, telling jokes, and sharing motivation. I do not have a personal life but our conversation is always my priority. What is on your mind?",
+    "Arrey yaar main toh hamesha ready hoon baat karne ke liye! Jokes chahiye, motivation chahiye, ya bas timepass — sab milega. Bol kya scene hai aaj?"
+    ]
+        }
+    ]
+}
