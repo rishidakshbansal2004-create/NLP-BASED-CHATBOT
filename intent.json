@@ -35,7 +35,7 @@
             "tag": "farewell",
             "patterns": [
                 "Bye", "Goodbye", "See you later", "Take care", "I'm leaving",
-                "Catch you later", "See ya", "Good night", "I'll talk to you later",
+                "Catch you later", "See ya", "Good night", "I'll talk to you later","farewell",
                 "I'm out","chalo bye","mile hai baad mein","meet later","Meet next time",
                 "Chalte hai", "Alvida", "Baad mein baat karte hai","chalta hun",
                 "Chalo bye", "Nikalta hoon","Have a great day","Time to go"
@@ -214,6 +214,8 @@
         "Can we chat",
         "Let us talk",
         "Are you busy",
+        "Want to talk",
+        "Want to chat",
         "Do you have hobbies",
         "Are you doing well",
         "How have you been",
