@@ -3,7 +3,6 @@ from preprocessing import preprocess
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
-from sklearn.calibration import CalibratedClassifierCV
 import pickle
 
 # Load intents
@@ -29,8 +28,7 @@ vectorizer = TfidfVectorizer(ngram_range=(1, 2))
 X = vectorizer.fit_transform(cleaned_pattern)
 
 ##NOW WE WILL TRAIN THE MODEL USING LOGICTIC REG or SVM
-base_model = LinearSVC()
-model = CalibratedClassifierCV(base_model)   #COMMENT OUT UNWANTED MODEL
+model = LinearSVC()  #COMMENT OUT UNWANTED MODEL
 #model= LogisticRegression()
 model.fit(X, tags)
 
