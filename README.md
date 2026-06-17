@@ -73,7 +73,7 @@ streamlit run app.py
 The chatbot can also be accessed directly through the terminal:
 
 ```bash
-python chatbot.py
+python Chatbot.py
 ```
 
 This acts as a backup interface if Streamlit encounters any issues.
@@ -104,7 +104,7 @@ This acts as a backup interface if Streamlit encounters any issues.
 
 ```text
 ├── app.py
-├── chatbot.py
+├── Chatbot.py
 ├── train.py
 ├── preprocessing.py
 ├── intent.json
