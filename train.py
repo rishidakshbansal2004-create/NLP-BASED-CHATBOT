@@ -28,8 +28,8 @@ vectorizer = TfidfVectorizer(ngram_range=(1, 2))
 X = vectorizer.fit_transform(cleaned_pattern)
 
 ##NOW WE WILL TRAIN THE MODEL USING LOGICTIC REG or SVM
-#model = SVC(kernel="linear", probability=True)   #COMMENT OUT UNWANTED MODEL
-model= LogisticRegression(max_iter=1000)
+model = SVC(kernel="linear", probability=True)   #COMMENT OUT UNWANTED MODEL
+#model= LogisticRegression()
 model.fit(X, tags)
 
 

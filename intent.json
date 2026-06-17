@@ -4,7 +4,8 @@
             "tag": "greeting",
             "patterns": [
                 "Hi",
-                "Hello",
+                "hello","hello bro","hello bro","hello bhai","hello bhaiya","hello yaar","hello dost",
+                "hi bot",
             "Hey there",
             "Good morning",
             "Good evening",
@@ -72,6 +73,7 @@
                 "Hasna hai mujhe",
                 "Kuch funny bolo",
                 "Yaar hasao mujhe",
+                "Hasao yaar",
                 "Ek joke maro bhai"
             ],
             "responses": [

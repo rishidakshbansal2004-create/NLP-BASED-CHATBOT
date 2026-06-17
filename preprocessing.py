@@ -2,7 +2,8 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-
+import sklearn
+print(sklearn.__version__)
 # Download required NLTK data (run once)
 nltk.download('punkt')
 nltk.download('punkt_tab')
