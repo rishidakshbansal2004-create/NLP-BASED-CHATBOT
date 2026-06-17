@@ -7,7 +7,8 @@ A machine learning-powered chatbot built using Python, NLTK, Scikit-learn, and S
 ## Demo
 
 ![Chatbot Demo](demo.png)
-
+## Live Demo
+👉 [Try the chatbot here](https://nlp-based-chatbot-r.streamlit.app)
 ---
 
 ## Installation
