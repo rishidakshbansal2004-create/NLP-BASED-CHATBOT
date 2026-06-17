@@ -2,7 +2,7 @@ import json
 from preprocessing import preprocess
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
 import pickle
 
 # Load intents
@@ -28,7 +28,7 @@ vectorizer = TfidfVectorizer(ngram_range=(1, 2))
 X = vectorizer.fit_transform(cleaned_pattern)
 
 ##NOW WE WILL TRAIN THE MODEL USING LOGICTIC REG or SVM
-model = LinearSVC()  #COMMENT OUT UNWANTED MODEL
+model = SVC(kernel="linear", probability=True)   #COMMENT OUT UNWANTED MODEL
 #model= LogisticRegression()
 model.fit(X, tags)
 

@@ -10,8 +10,7 @@ def get_response(user_input,model, vectorizer):
     clean_input= " ".join(preprocess(user_input))
     x=vectorizer.transform([clean_input])
     intent=model.predict(x)[0]
-    scores = model.decision_function(x)
-    conf=scores.max()
+    conf=max(model.predict_proba(x)[0])
     if conf<0.3:
         intent="fallback"
     for i in data["intents"]:
